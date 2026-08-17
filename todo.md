@@ -72,8 +72,8 @@
 - [x] Verify each external report citation against its live primary source and record the result.
 - [x] Add a concise student-completed AI-use ledger field checklist without inventing model or personal verification details.
 - [x] Confirm the public GitHub Pages and protected API are currently reachable, then state the ongoing retention obligation.
-- [ ] Deliver the verified citation record and remaining submission actions.
+- [x] Deliver the verified citation record and remaining submission actions.
 - [x] Re-read the citation verification record and updated report reference to confirm the verified sources are recorded correctly.
-- [ ] Sync the citation verification record and updated report reference to the GitHub repository and evidence package.
-- [ ] Re-read the updated AI-use ledger to confirm it contains only student-completed disclosure fields.
-- [ ] Sync the updated AI-use ledger to the GitHub repository and evidence package.
+- [x] Sync the citation verification record and updated report reference to the GitHub repository and evidence package.
+- [x] Re-read the updated AI-use ledger to confirm it contains only student-completed disclosure fields.
+- [x] Sync the updated AI-use ledger to the GitHub repository and evidence package.
