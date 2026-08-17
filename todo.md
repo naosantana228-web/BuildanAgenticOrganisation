@@ -35,10 +35,10 @@
 - [x] Capture and organise final public-run screenshots and an audit transcript for `run_AMh4qxZ2wbXJ`.
 - [x] Verify the report draft, citations, AI-use ledger, evidence guide, and final checklist against the deployed implementation.
 - [x] Prepare a concise student-only reflection handoff that excludes generated reflection prose.
-- [ ] Deliver the submission-evidence package and final handoff summary.
+- [x] Deliver the submission-evidence package and final handoff summary.
 - [x] Verify the final submission checklist against the deployed public run and refresh any stale evidence references.
 - [x] Verify and sync the final AI-use ledger, evidence manifest, and public-run references to `run_AMh4qxZ2wbXJ`.
 - [x] Verify the student-only reflection handoff contains factual prompts only and no generated reflection prose.
-- [ ] Sync the updated final submission checklist and report reference to the final public run into the GitHub repository.
-- [ ] Sync the final AI-use ledger, evidence manifest, and student-only handoff into the GitHub repository.
-- [ ] Verify the synchronised repository documents contain the final run ID and current evidence references.
+- [x] Sync the updated final submission checklist and report reference to the final public run into the GitHub repository.
+- [x] Sync the final AI-use ledger, evidence manifest, and student-only handoff into the GitHub repository.
+- [x] Verify the synchronised repository documents contain the final run ID and current evidence references.
