@@ -59,3 +59,13 @@
 - [x] Verify report figure references use artifact spelling, then sync the figure guidance and report update to the GitHub repository.
 - [x] Sync the final figure plan and updated report evidence guidance to the GitHub repository.
 - [x] Re-read the synced figure plan and report to confirm Figures 1, 2a, 2b, and optional Figure 3 with artifact spelling.
+- [x] Add Figure 1 Command Centre evidence, Figures 2a–2b Agent Design evidence, and Figure 3 live-source evidence to a single illustrated report.
+- [x] Verify figure captions, report readability, and the student-authored reflection boundary in the illustrated report.
+- [x] Deliver the updated single illustrated report document.
+- [x] Audit the live GitHub Pages route, public API connection, agent-design view, and completed run evidence.
+- [x] Audit source code for five-agent orchestration, fresh live data retrieval, structured handoffs, persistence, and credential exposure.
+- [x] Audit tests, deployment workflow, documentation, report evidence, and remaining student-completed submission requirements.
+- [x] Deliver a requirement-by-requirement audit matrix with pass status, evidence, and any remaining actions.
+- [x] Verify the completed audit matrix contains public deployment, code, security, testing, documentation, and submission checks.
+- [x] Add the verified audit matrix to the submission evidence package and repository documentation.
+- [x] Deliver the verified audit matrix to the user.
