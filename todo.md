@@ -45,6 +45,6 @@
 - [x] Prepare a report-formatting and figure-placement guide using the final public evidence package.
 - [x] Prepare a student-completed disclosure checklist that identifies only the fields requiring the student’s own verification.
 - [ ] Deliver the final student-editable submission guidance.
-- [ ] Verify and sync the final report-formatting guide to the GitHub repository.
-- [ ] Verify and sync the student disclosure-completion checklist to the GitHub repository.
-- [ ] Confirm both synced guidance documents contain only evidence-placement or student-verification instructions.
+- [x] Verify and sync the final report-formatting guide to the GitHub repository.
+- [x] Verify and sync the student disclosure-completion checklist to the GitHub repository.
+- [x] Confirm both synced guidance documents contain only evidence-placement or student-verification instructions.
