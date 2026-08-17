@@ -26,3 +26,4 @@
 - [ ] Verify the pushed portable repository contains no non-essential platform references and still passes type, test, and GitHub Pages build checks.
 - [ ] Align the GitHub Actions pnpm setup version with the package manager version pinned in `package.json`, then push and verify the workflow fix.
 - [ ] Remove the workflow’s duplicate pnpm version declaration so the action reads the exact package-manager version from `package.json`.
+- [ ] Configure the client router for the GitHub Pages repository base path and verify the deployed root route renders the dashboard rather than the app’s 404 page.
