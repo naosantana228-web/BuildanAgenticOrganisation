@@ -1,6 +1,6 @@
 # AI-Use Ledger
 
-This ledger supports the assignment requirement to disclose AI-generated content. Complete the final **model/version, date, and human verification** cells for each submission run, because the server selects an available runtime model from the live catalogue.
+This ledger supports the assignment requirement to disclose AI-generated content. The final public validation run was `run_AMh4qxZ2wbXJ` on 17 August 2026. Complete the final **model/version and human verification** fields for each submission run, because the server selects an available runtime model from the live catalogue.
 
 | Item | Model/tool | Prompt or source location | AI-assisted purpose | Human verification required |
 |---|---|---|---|---|

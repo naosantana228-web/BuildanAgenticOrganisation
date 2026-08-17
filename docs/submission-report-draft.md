@@ -3,7 +3,7 @@
 **Student:** [replace]  
 **Module:** H9CEAI — Customer Engagement and Artificial Intelligence  
 **Working prototype:** `https://naosantana228-web.github.io/BuildanAgenticOrganisation/`  
-**Example run ID:** `run_50lBacRsTa43` — replace or retain only after confirming the deployed instance shows this evidence.
+**Example run ID:** `run_AMh4qxZ2wbXJ` — completed publicly on 17 August 2026 with five persisted audit artefacts.
 
 > **Draft-status note.** This document is AI-assisted drafting material. Before submission, verify every factual claim, replace bracketed fields with actual evidence, disclose the model/prompts used in the AI-use ledger, and personally write the Reflection section without generative AI.
 
@@ -65,7 +65,7 @@ The system executes the chain **Researcher → Designer → Maker → Communicat
 
 Each database record contains `run_id`, `agent_name`, `input_artifact_ids`, `source_evidence`, `assumptions`, `decision_rationale`, `output`, `quality_checks`, and `created_at`. This prevents the system from appearing as five isolated chatbot conversations. The dashboard presents a real-time five-step progress bar, a copyable run ID, status indicators, source evidence, the previous artefact IDs, decision trail, and collapsible output cards. **Insert Figure 1: dashboard run overview. Insert Figures 2–6: the expanded cards for each agent.**
 
-For the captured test run `run_50lBacRsTa43`, the database stored a completed run and five structured artefacts. **Verify this example against the deployed system before retaining it.** The dynamic retrieval code is in `fetchLiveGoogleWorkspaceUpdates()` and is called immediately before the Researcher LLM invocation. The automated tests additionally check that the function uses `cache: "no-store"`, includes a fresh timestamp parameter, returns parsed feed entries, and fails transparently if the live request returns an error.
+For the captured public test run `run_AMh4qxZ2wbXJ`, the database stored a completed run and five structured artefacts. The public dashboard showed the freshly retrieved source URL, HTTP 200 status, source retrieval timestamp, all five completed stages, and the final persisted Manager handoff. The dynamic retrieval code is in `fetchLiveGoogleWorkspaceUpdates()` and is called immediately before the Researcher LLM invocation. The automated tests additionally check that the function uses `cache: "no-store"`, includes a fresh timestamp parameter, returns parsed feed entries, and fails transparently if the live request returns an error.
 
 ## 4. GitHub Pages URL
 

@@ -4,15 +4,15 @@ Complete this checklist immediately before submitting through Turnitin/Moodle. D
 
 ## Prototype and code
 
-- [ ] The public GitHub Pages URL loads without login: `https://naosantana228-web.github.io/BuildanAgenticOrganisation/`.
-- [ ] `client/public/config.js` points to the protected HTTPS API origin and contains no token, password, or secret.
-- [ ] A fresh public-browser run succeeds and shows exactly five stages: Researcher, Designer, Maker, Communicator, and Manager.
-- [ ] The Researcher card records a fresh Google Workspace feed URL, retrieval time, HTTP status, and returned source entries.
-- [ ] The browser shows a copyable `run_id`, five persisted artefacts, input artefact IDs, assumptions, decision rationale, output, quality checks, and timestamps.
-- [ ] The Agent Design view shows every full system prompt, personality, expertise, purpose, and example output.
-- [ ] `pnpm check`, `pnpm test`, and `pnpm build:pages` pass in the final repository state.
-- [ ] The GitHub repository and code zip contain no `.env` file, API key, database URL, token, cookie, or personal data.
-- [ ] The complete codebase zip is created from the final repository state and includes the README, tests, migrations, server, client, and documentation.
+- [x] The public GitHub Pages URL loads without login: `https://naosantana228-web.github.io/BuildanAgenticOrganisation/`.
+- [x] `client/public/config.js` points to the protected HTTPS API origin and contains no token, password, or secret.
+- [x] A fresh public-browser run succeeds and shows exactly five stages: Researcher, Designer, Maker, Communicator, and Manager.
+- [x] The Researcher card records a fresh Google Workspace feed URL, retrieval time, HTTP status, and returned source entries.
+- [x] The browser shows a copyable `run_id`, five persisted artefacts, input artefact IDs, assumptions, decision rationale, output, quality checks, and timestamps.
+- [x] The Agent Design view shows every full system prompt, personality, expertise, purpose, and example output.
+- [x] `pnpm check`, `pnpm test`, and `pnpm build:pages` pass in the final repository state.
+- [x] The GitHub repository and code zip contain no `.env` file, API key, database URL, token, cookie, or personal data.
+- [x] The complete codebase zip is created from the final repository state and includes the README, tests, migrations, server, client, and documentation.
 
 ## Submission document
 
@@ -28,7 +28,7 @@ Complete this checklist immediately before submitting through Turnitin/Moodle. D
 
 ## Evidence archive
 
-- [ ] Save screenshots using the run ID in their filename.
-- [ ] Save at least one complete run transcript or screen recording.
-- [ ] Save the final GitHub Actions deployment result and external-browser verification screenshot.
-- [ ] Retain development notes showing at least one prompt, design, or implementation iteration for the reflection.
+- [x] Save screenshots using the run ID in their filename.
+- [x] Save at least one complete run transcript or screen recording.
+- [x] Save the final GitHub Actions deployment result and external-browser verification screenshot.
+- [x] Retain development notes showing at least one prompt, design, or implementation iteration for the reflection.

@@ -49,3 +49,7 @@ The final Manager handoff persisted at 19:50:33 and public run `run_AMh4qxZ2wbXJ
 ## Portability review
 
 The GitHub repository now excludes obsolete scaffold metadata, local platform diagnostics, and unused debug assets. A final clean-repository build completed `pnpm check`, `pnpm test`, and `pnpm build:pages` successfully. Remaining runtime-provider identifiers are limited to the protected server integration, its secure authentication/LLM helpers, and the deployed API origin; removing them would break the live server-side agent architecture or misrepresent the deployed implementation. Required AI-use disclosure materials remain intentionally included for assessment integrity.
+
+## 17 August 2026 — public Agent Design evidence
+
+The public GitHub Pages Agent Design view rendered all five specialised roles: Researcher, Designer, Maker, Communicator, and Manager. For every role, it displayed the archetype, personality, domain expertise, purpose, full system prompt, and example structured output. The view explicitly describes the workflow as a cumulative organisation rather than five independent chatbots.
