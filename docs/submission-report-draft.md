@@ -1,8 +1,11 @@
 # Building an Agentic Organisation: Learning Architects / Signal
 
-**Student:** [replace]  
-**Module:** H9CEAI — Customer Engagement and Artificial Intelligence  
-**Working prototype:** `https://naosantana228-web.github.io/BuildanAgenticOrganisation/`  
+**Student:** [replace with your name]<br>
+**Student number:** [replace if required]<br>
+**Module:** H9CEAI — Customer Engagement and Artificial Intelligence<br>
+**Submission date:** 17 August 2026<br>
+**Runtime model/version:** [replace after checking your verified run evidence]<br>
+**Working prototype:** `https://naosantana228-web.github.io/BuildanAgenticOrganisation/`
 **Example run ID:** `run_AMh4qxZ2wbXJ` — completed publicly on 17 August 2026 with five persisted audit artefacts.
 
 > **Draft-status note.** This document is AI-assisted drafting material. Before submission, verify every factual claim, replace bracketed fields with actual evidence, disclose the model/prompts used in the AI-use ledger, and personally write the Reflection section without generative AI.

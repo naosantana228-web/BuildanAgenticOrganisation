@@ -48,3 +48,7 @@
 - [x] Verify and sync the final report-formatting guide to the GitHub repository.
 - [x] Verify and sync the student disclosure-completion checklist to the GitHub repository.
 - [x] Confirm both synced guidance documents contain only evidence-placement or student-verification instructions.
+- [x] Set the report submission date to 17 August 2026 while retaining placeholders for student identity, model/version, personal verification, and reflection.
+- [ ] Verify and synchronise the updated editable report materials, then deliver the handoff.
+- [ ] Verify the report draft contains the 17 August 2026 submission date and all required student-editable placeholders.
+- [ ] Sync and commit the verified report-date update to the GitHub repository.
