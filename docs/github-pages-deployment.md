@@ -2,11 +2,11 @@
 
 The public dashboard is deployed from the included `.github/workflows/deploy-pages.yml` workflow. It runs `pnpm build:pages`, which uses a production base path of `/BuildanAgenticOrganisation/` and publishes the Vite output from `dist/public`.
 
-Before enabling the workflow, update the public repository file `client/public/config.js` with the HTTPS origin of the separately deployed protected API. For example:
+The public repository is configured to use the protected API origin below:
 
 ```js
 window.__AGENTIC_CONFIG__ = {
-  apiBaseUrl: "https://your-protected-api.example.com",
+  apiBaseUrl: "https://learnarchs-srpganl9.manus.space",
 };
 ```
 

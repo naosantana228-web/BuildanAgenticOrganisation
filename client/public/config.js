@@ -3,5 +3,5 @@
 // It is intentionally blank in the repository so local full-stack previews
 // continue to use the same origin.
 window.__AGENTIC_CONFIG__ = {
-  apiBaseUrl: "",
+  apiBaseUrl: "https://learnarchs-srpganl9.manus.space",
 };
