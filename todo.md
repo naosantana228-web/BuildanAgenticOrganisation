@@ -24,3 +24,4 @@
 - [x] Configure the public GitHub Pages dashboard to call the published protected API at `https://learnarchs-srpganl9.manus.space` without exposing credentials.
 - [ ] Remove the remaining non-essential scaffold metadata and platform-specific ignore rules from the portable GitHub repository.
 - [ ] Verify the pushed portable repository contains no non-essential platform references and still passes type, test, and GitHub Pages build checks.
+- [ ] Align the GitHub Actions pnpm setup version with the package manager version pinned in `package.json`, then push and verify the workflow fix.
