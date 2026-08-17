@@ -54,8 +54,8 @@
 - [x] Sync and commit the verified report-date update to the GitHub repository.
 - [x] Update evidence guidance to use the user-provided Agent Design screenshots as Figures 2a–2b and specify the required Figure 1 Command Centre evidence.
 - [x] Add an optional Researcher live-source Figure 3 caption and enforce consistent artifact spelling in report guidance.
-- [ ] Verify the final figure plan and deliver the remaining screenshot actions.
+- [x] Verify the final figure plan and deliver the remaining screenshot actions.
 - [x] Verify the Figure 1, Figure 2a, Figure 2b, and optional Figure 3 guidance is saved and uses the required captions.
 - [x] Verify report figure references use artifact spelling, then sync the figure guidance and report update to the GitHub repository.
-- [ ] Sync the final figure plan and updated report evidence guidance to the GitHub repository.
-- [ ] Re-read the synced figure plan and report to confirm Figures 1, 2a, 2b, and optional Figure 3 with artifact spelling.
+- [x] Sync the final figure plan and updated report evidence guidance to the GitHub repository.
+- [x] Re-read the synced figure plan and report to confirm Figures 1, 2a, 2b, and optional Figure 3 with artifact spelling.
