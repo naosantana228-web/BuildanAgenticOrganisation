@@ -6,7 +6,7 @@
 **Submission date:** 17 August 2026<br>
 **Runtime model/version:** [replace after checking your verified run evidence]<br>
 **Working prototype:** `https://naosantana228-web.github.io/BuildanAgenticOrganisation/`
-**Example run ID:** `run_AMh4qxZ2wbXJ` — completed publicly on 17 August 2026 with five persisted audit artefacts.
+**Example run ID:** `run_AMh4qxZ2wbXJ` — completed publicly on 17 August 2026 with five persisted audit artifacts.
 
 > **Draft-status note.** This document is AI-assisted drafting material. Before submission, verify every factual claim, replace bracketed fields with actual evidence, disclose the model/prompts used in the AI-use ledger, and personally write the Reflection section without generative AI.
 
@@ -14,9 +14,9 @@
 
 Learning Architects / Signal is a fictional Google Learning Architects service that helps employees and people managers respond to product or policy changes that alter how they work in Google Workspace. The chosen challenge is not simply informing users that a change has occurred. It is turning an externally published, frequently technical product update into a timely, role-specific and trustworthy training response. Employees need to know what has changed, whether it affects their team, what action is required, and where to obtain support. Managers need a reliable view of priority, risk, readiness, and evidence of adoption.
 
-This challenge benefits from an agentic approach because its work contains distinct but dependent forms of judgement. A Researcher must retrieve and interpret a fresh public signal; a Designer must turn the evidence into a usable learning experience; a Maker must translate the design into a functional artefact; a Communicator must explain the actual capability without exaggeration; and a Manager must reconcile the full chain into governed next actions. A single generic chatbot could produce a plausible summary, but it would not provide the same traceability, specialist role separation, or auditable sequence of decisions.
+This challenge benefits from an agentic approach because its work contains distinct but dependent forms of judgement. A Researcher must retrieve and interpret a fresh public signal; a Designer must turn the evidence into a usable learning experience; a Maker must translate the design into a functional artifact; a Communicator must explain the actual capability without exaggeration; and a Manager must reconcile the full chain into governed next actions. A single generic chatbot could produce a plausible summary, but it would not provide the same traceability, specialist role separation, or auditable sequence of decisions.
 
-The organisation uses the official Google Workspace developer release-notes Atom feed as its external source. Google identifies `https://developers.google.com/feeds/workspace-release-notes.xml` as the direct feed URL for current Workspace updates. [1] On each new run, the system makes a fresh no-store server request before Researcher reasoning, rather than relying on a repository fixture or cached release-note value. The resulting source URL, retrieval time, HTTP status, and returned entries are retained as evidence in the first handoff artefact.
+The organisation uses the official Google Workspace developer release-notes Atom feed as its external source. Google identifies `https://developers.google.com/feeds/workspace-release-notes.xml` as the direct feed URL for current Workspace updates. [1] On each new run, the system makes a fresh no-store server request before Researcher reasoning, rather than relying on a repository fixture or cached release-note value. The resulting source URL, retrieval time, HTTP status, and returned entries are retained as evidence in the first handoff artifact.
 
 ## 2. Agent Designs
 
@@ -32,7 +32,7 @@ The organisation contains exactly five specialised agents. Each uses a distinct 
 
 ### Designer — Human-Centred Solution Design
 
-**Role and output:** The Designer is empathetic, structured, and disciplined about user needs. It receives the Researcher artefact and produces a learning journey, audience/need definition, acceptance criteria, accessibility considerations, and a bounded prototype specification.
+**Role and output:** The Designer is empathetic, structured, and disciplined about user needs. It receives the Researcher artifact and produces a learning journey, audience/need definition, acceptance criteria, accessibility considerations, and a bounded prototype specification.
 
 **Full system prompt:**
 
@@ -40,7 +40,7 @@ The organisation contains exactly five specialised agents. Each uses a distinct 
 
 ### Maker — Technical Craftsmanship
 
-**Role and output:** The Maker is pragmatic, precise, and test-minded. It consumes the design specification and defines the working artefact, implemented acceptance criteria, test scenarios, constraints, and an accurate description of the system’s capabilities.
+**Role and output:** The Maker is pragmatic, precise, and test-minded. It consumes the design specification and defines the working artifact, implemented acceptance criteria, test scenarios, constraints, and an accurate description of the system’s capabilities.
 
 **Full system prompt:**
 
@@ -48,7 +48,7 @@ The organisation contains exactly five specialised agents. Each uses a distinct 
 
 ### Communicator — Persuasion and Storytelling
 
-**Role and output:** The Communicator is clear, audience-aware, and candid. It uses the actual Maker artefact and upstream evidence to create an employee/manager change-activation plan, including a message hierarchy, calls to action, and practical measurement ideas.
+**Role and output:** The Communicator is clear, audience-aware, and candid. It uses the actual Maker artifact and upstream evidence to create an employee/manager change-activation plan, including a message hierarchy, calls to action, and practical measurement ideas.
 
 **Full system prompt:**
 
@@ -56,7 +56,7 @@ The organisation contains exactly five specialised agents. Each uses a distinct 
 
 ### Manager — Leadership and Orchestration
 
-**Role and output:** The Manager is strategic, accountable, and action-oriented. It receives all preceding artefacts and produces the final executive plan, KPI suggestions, risk register, and a human-review checkpoint before any real training policy is enacted.
+**Role and output:** The Manager is strategic, accountable, and action-oriented. It receives all preceding artifacts and produces the final executive plan, KPI suggestions, risk register, and a human-review checkpoint before any real training policy is enacted.
 
 **Full system prompt:**
 
@@ -64,11 +64,11 @@ The organisation contains exactly five specialised agents. Each uses a distinct 
 
 ## 3. The Pipeline in Action
 
-The system executes the chain **Researcher → Designer → Maker → Communicator → Manager**. When a user launches a run, the server creates a visible `run_id` and then calls the live Google Workspace feed. The Researcher receives only that source evidence and the user’s objective. Once its strict JSON result is validated, the system persists it as an artefact and passes its identifier, decision, summary, deliverables, handoff brief, and risks to the Designer. This continues cumulatively through each specialist. The Manager receives the four previous artefacts and produces a final executive synthesis.
+The system executes the chain **Researcher → Designer → Maker → Communicator → Manager**. When a user launches a run, the server creates a visible `run_id` and then calls the live Google Workspace feed. The Researcher receives only that source evidence and the user’s objective. Once its strict JSON result is validated, the system persists it as an artifact and passes its identifier, decision, summary, deliverables, handoff brief, and risks to the Designer. This continues cumulatively through each specialist. The Manager receives the four previous artifacts and produces a final executive synthesis.
 
-Each database record contains `run_id`, `agent_name`, `input_artifact_ids`, `source_evidence`, `assumptions`, `decision_rationale`, `output`, `quality_checks`, and `created_at`. This prevents the system from appearing as five isolated chatbot conversations. The dashboard presents a real-time five-step progress bar, a copyable run ID, status indicators, source evidence, the previous artefact IDs, decision trail, and collapsible output cards. **Insert Figure 1: dashboard run overview. Insert Figures 2–6: the expanded cards for each agent.**
+Each database record contains `run_id`, `agent_name`, `input_artifact_ids`, `source_evidence`, `assumptions`, `decision_rationale`, `output`, `quality_checks`, and `created_at`. This prevents the system from appearing as five isolated chatbot conversations. The dashboard presents a real-time five-step progress bar, a copyable run ID, status indicators, source evidence, the previous artifact IDs, decision trail, and collapsible output cards. **Insert Figure 1: completed Command Centre run. Insert Figure 2a: Researcher and Designer profiles. Insert Figure 2b: Maker, Communicator, and Manager profiles. Insert optional Figure 3: expanded Researcher live-source evidence.**
 
-For the captured public test run `run_AMh4qxZ2wbXJ`, the database stored a completed run and five structured artefacts. The public dashboard showed the freshly retrieved source URL, HTTP 200 status, source retrieval timestamp, all five completed stages, and the final persisted Manager handoff. The dynamic retrieval code is in `fetchLiveGoogleWorkspaceUpdates()` and is called immediately before the Researcher LLM invocation. The automated tests additionally check that the function uses `cache: "no-store"`, includes a fresh timestamp parameter, returns parsed feed entries, and fails transparently if the live request returns an error.
+For the captured public test run `run_AMh4qxZ2wbXJ`, the database stored a completed run and five structured artifacts. The public dashboard showed the freshly retrieved source URL, HTTP 200 status, source retrieval timestamp, all five completed stages, and the final persisted Manager handoff. The dynamic retrieval code is in `fetchLiveGoogleWorkspaceUpdates()` and is called immediately before the Researcher LLM invocation. The automated tests additionally check that the function uses `cache: "no-store"`, includes a fresh timestamp parameter, returns parsed feed entries, and fails transparently if the live request returns an error.
 
 ## 4. GitHub Pages URL
 
