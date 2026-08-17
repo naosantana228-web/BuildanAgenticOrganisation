@@ -18,12 +18,17 @@
 - [x] Keep the final reflection excluded for student-authored writing.
 - [x] Publish the protected backend through the project management interface and record its production HTTPS origin.
 - [x] Set the public GitHub Pages API origin in `client/public/config.js`, commit the non-secret configuration update, and verify CORS.
-- [ ] Enable GitHub Pages with GitHub Actions and manually run the deployment workflow as the repository owner.
-- [ ] Validate a fresh five-agent public-browser run from the GitHub Pages URL and capture final evidence.
+- [x] Enable GitHub Pages with GitHub Actions and manually run the deployment workflow as the repository owner.
+- [x] Validate a fresh five-agent public-browser run from the GitHub Pages URL and capture final evidence.
 - [x] Remove non-essential platform-specific diagnostics and deployment metadata from the GitHub repository while preserving functional source code and required disclosure materials.
 - [x] Configure the public GitHub Pages dashboard to call the published protected API at `https://learnarchs-srpganl9.manus.space` without exposing credentials.
-- [ ] Remove the remaining non-essential scaffold metadata and platform-specific ignore rules from the portable GitHub repository.
-- [ ] Verify the pushed portable repository contains no non-essential platform references and still passes type, test, and GitHub Pages build checks.
-- [ ] Align the GitHub Actions pnpm setup version with the package manager version pinned in `package.json`, then push and verify the workflow fix.
-- [ ] Remove the workflow’s duplicate pnpm version declaration so the action reads the exact package-manager version from `package.json`.
-- [ ] Configure the client router for the GitHub Pages repository base path and verify the deployed root route renders the dashboard rather than the app’s 404 page.
+- [x] Remove the remaining non-essential scaffold metadata and platform-specific ignore rules from the portable GitHub repository.
+- [x] Verify the pushed portable repository contains no non-essential platform references and still passes type, test, and GitHub Pages build checks.
+- [x] Align the GitHub Actions pnpm setup version with the package manager version pinned in `package.json`, then push and verify the workflow fix.
+- [x] Remove the workflow’s duplicate pnpm version declaration so the action reads the exact package-manager version from `package.json`.
+- [x] Configure the client router for the GitHub Pages repository base path and verify the deployed root route renders the dashboard rather than the app’s 404 page.
+- [x] Run a final broad portability scan on the pushed GitHub repository, document remaining functional secure-runtime references, and re-run all build checks.
+- [x] Remove non-essential user-facing platform-specific scaffold remnants and rename generic client helpers where they are unused by the prototype.
+- [x] Document the remaining runtime-provider bindings that are functionally required for the protected API and server-side agent implementation.
+- [ ] Verify and sync the runtime dependency boundary document, then include it in the final portability build checks.
+- [ ] Re-run the broad portability scan and complete type, test, and GitHub Pages build verification after the targeted cleanup.
