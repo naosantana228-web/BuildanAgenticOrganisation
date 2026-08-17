@@ -30,5 +30,5 @@
 - [x] Run a final broad portability scan on the pushed GitHub repository, document remaining functional secure-runtime references, and re-run all build checks.
 - [x] Remove non-essential user-facing platform-specific scaffold remnants and rename generic client helpers where they are unused by the prototype.
 - [x] Document the remaining runtime-provider bindings that are functionally required for the protected API and server-side agent implementation.
-- [ ] Verify and sync the runtime dependency boundary document, then include it in the final portability build checks.
-- [ ] Re-run the broad portability scan and complete type, test, and GitHub Pages build verification after the targeted cleanup.
+- [x] Verify and sync the runtime dependency boundary document, then include it in the final portability build checks.
+- [x] Re-run the broad portability scan and complete type, test, and GitHub Pages build verification after the targeted cleanup.
