@@ -18,3 +18,12 @@ Each stage is given the run objective, the current agent identity, the live sour
 ## Student disclosure checklist
 
 Before submission, replace this section with a concise first-person disclosure that lists the model shown in the run evidence, the five system prompts or their file locations, the report-drafting assistance used, and the specific human verification completed. Do **not** state that any unverified AI output was accepted. The final reflection is intentionally excluded from this ledger because it must be personally authored.
+
+| Student-completed field | What to enter after your own check |
+|---|---|
+| Model and version | The exact model/version shown by your verified final runtime evidence. Do not infer it from a model-selection fallback in source code. |
+| Date and final run | `17 August 2026` and `run_AMh4qxZ2wbXJ`, if this remains the run you submit as evidence. |
+| Prompt locations | `server/agents/definitions.ts` and the five public Agent Design prompt panels. |
+| Report assistance disclosure | A truthful short description of drafting/formatting assistance and the report sections where it was used. |
+| Personal verification | Only checks you personally performed, for example opening the public URL, comparing Figures 1–3, checking the live source link, and verifying the cited regulations. |
+| Reflection statement | Confirm only that the reflection was written independently in your own words. |

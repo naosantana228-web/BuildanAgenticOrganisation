@@ -94,6 +94,6 @@ Write approximately 300 words in your own words. Do not use generative AI for th
 
 [1]: https://developers.google.com/workspace/release-notes "Google Workspace developer release notes"
 
-[2]: https://eur-lex.europa.eu/eli/reg/2024/1689/oj/eng "Regulation (EU) 2024/1689 (Artificial Intelligence Act), Article 50 and Annex III"
+[2]: https://eur-lex.europa.eu/legal-content/EN/AUTO/?uri=CELEX:02024R1689-20260727 "Current consolidated text of Regulation (EU) 2024/1689 (Artificial Intelligence Act), Article 50 and Annex III"
 
 [3]: https://eur-lex.europa.eu/eli/reg/2016/679/oj/eng "Regulation (EU) 2016/679 (GDPR), Articles 5 and 13"
