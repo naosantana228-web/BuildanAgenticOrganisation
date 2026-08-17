@@ -16,9 +16,11 @@
 - [x] Validate the complete end-to-end workflow, UI rendering, source-code security, and GitHub deployment package.
 - [x] Prepare marker-ready report draft, AI-use ledger, evidence capture guide, and final submission checklist.
 - [x] Keep the final reflection excluded for student-authored writing.
-- [ ] Publish the protected backend through the project management interface and record its production HTTPS origin.
-- [ ] Set the public GitHub Pages API origin in `client/public/config.js`, commit the non-secret configuration update, and verify CORS.
+- [x] Publish the protected backend through the project management interface and record its production HTTPS origin.
+- [x] Set the public GitHub Pages API origin in `client/public/config.js`, commit the non-secret configuration update, and verify CORS.
 - [ ] Enable GitHub Pages with GitHub Actions and manually run the deployment workflow as the repository owner.
 - [ ] Validate a fresh five-agent public-browser run from the GitHub Pages URL and capture final evidence.
-- [ ] Remove non-essential platform-specific diagnostics and deployment metadata from the GitHub repository while preserving functional source code and required disclosure materials.
-- [ ] Configure the public GitHub Pages dashboard to call the published protected API at `https://learnarchs-srpganl9.manus.space` without exposing credentials.
+- [x] Remove non-essential platform-specific diagnostics and deployment metadata from the GitHub repository while preserving functional source code and required disclosure materials.
+- [x] Configure the public GitHub Pages dashboard to call the published protected API at `https://learnarchs-srpganl9.manus.space` without exposing credentials.
+- [ ] Remove the remaining non-essential scaffold metadata and platform-specific ignore rules from the portable GitHub repository.
+- [ ] Verify the pushed portable repository contains no non-essential platform references and still passes type, test, and GitHub Pages build checks.
